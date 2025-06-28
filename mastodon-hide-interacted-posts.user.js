@@ -83,8 +83,8 @@
             ).some(btn =>
                 btn.getAttribute('title')?.toLowerCase().includes('nicht mehr teilen') ||
                 btn.getAttribute('aria-label')?.toLowerCase().includes('nicht mehr teilen') ||
-                btn.getAttribute('title')?.toLowerCase().includes('Unboost') ||
-                btn.getAttribute('aria-label')?.toLowerCase().includes('Unboost') 
+                btn.getAttribute('title')?.toLowerCase().includes('unboost') ||
+                btn.getAttribute('aria-label')?.toLowerCase().includes('unboost') 
             );
 
             if (hasLike || hasBoost) {
